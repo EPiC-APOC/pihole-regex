@@ -10,12 +10,20 @@ sudo cp /etc/pihole/regex.list /etc/pihole/regex.list.bak
 
 ### Installation Instructions
 ```
+MMOTTI:
 curl -sSl https://raw.githubusercontent.com/mmotti/pihole-regex/master/install.sh | bash 
+
+EPiC (fork):
+curl -sSl https://raw.githubusercontent.com/EPiC-APOC/pihole-regex/master/install.sh | bash 
 ```
 
 ### Removal Instructions
 ```
+MMOTTI:
 curl -sSl https://raw.githubusercontent.com/mmotti/pihole-regex/master/uninstall.sh | bash
+
+EPiC (fork):
+curl -sSl https://raw.githubusercontent.com/EPiC-APOC/pihole-regex/master/uninstall.sh | bash
 ```
 
 ### Testing the regex filter

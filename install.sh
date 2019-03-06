@@ -15,7 +15,8 @@ fi
 
 # Fetch mmotti regex.list
 echo "[i] Fetching mmotti's regex.list"
-sudo wget -qO "$file_mmotti_regex" https://raw.githubusercontent.com/mmotti/pihole-regex/master/regex.list
+# sudo wget -qO "$file_mmotti_regex" https://raw.githubusercontent.com/mmotti/pihole-regex/master/regex.list
+sudo wget -qO "$file_mmotti_regex" https://raw.githubusercontent.com/EPiC-APOC/pihole-regex/master/regex.list
 
 # Exit if unable to download list
 if [ ! -s "$file_mmotti_regex" ]; then
