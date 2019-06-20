@@ -1,4 +1,3 @@
-#https://raw.githubusercontent.com/mmotti/pihole-regex/master/regex.list
 ^(.+[-_.])??adse?rv(er?|ice)?s?[0-9]*[-.]
 ^(.+[-_.])??m?ad[sxv]?[0-9]*[-_.]
 ^(.+[-_.])??xn--
@@ -16,14 +15,11 @@
 ^track(ers?|ing)?[0-9]*[-.]
 ^traff(ic)?[-.]
 
-#https://www.reddit.com/r/pihole/comments/b3fj60/regex_megathread/
 (.*)\.g[0-9]+\.(.*)
-#^(.+\.)??(.*v10.+|.*watson.|.*vortex.|1drv|llnw|.*win.+|.ms.+|.*a.microsoft.+)\.(com|net)$
-^(.+\.)??(.*(v10|v20)[-.a-z0-9]*(events|vortex).+|.+(\.1drv|\.llnw)|.*([-.]win[-.]).+|[a-z0-9]+(\.ms[a-z]+)|.*(ad|aria|data|spynet[a-z0-9]*|telemetry|vortex|watson).+microsoft(.+)?|.*(wns|telemetry).+windows(azure)?)\.(com|net)$
+^(.+\.)??(.*v10.+|.*watson.|.*vortex.|1drv|llnw|.*win.+|.ms.+|.*a.microsoft.+)\.(com|net)$
 ^([a-z0-9]+[.])*(ads|captive|cloudservices|logs)\.roku\.com$
 ^promo(s|t(ed|ion))?[-_.]
 
-#https://www.reddit.com/r/pihole/comments/b3fj60/regex_megathread/eoqymdj
 ^https?://([A-Za-z0-9.-]*\.)?.doubleclick(\.\w{2}\.\w{2}|\.\w{2,4})/
 ^https?://([A-Za-z0-9.-]*\.)?adnxs(\.\w{2}\.\w{2}|\.\w{2,4})/
 ^https?://([A-Za-z0-9.-]*\.)?ads\.yahoo\.com/
